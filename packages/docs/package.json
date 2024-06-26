@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "workspace:*",
+     "@ignite-ui/ts-config": "workspace:*",
     "@ignite-ui/react": "workspace:*",
     "@ignite-ui/tokens": "workspace:*",
     "@storybook/theming": "^8.1.10",
+    "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

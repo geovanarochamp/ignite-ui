@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "license":"MIT",
+  "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open",
     "build": "storybook build --output-dir dist"
   },
   "dependencies": {
+    "@ignite-ui/eslint-config": "workspace:*",
+    "@ignite-ui/react": "workspace:*",
+    "@ignite-ui/tokens": "workspace:*",
+    "@storybook/theming": "^8.1.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
